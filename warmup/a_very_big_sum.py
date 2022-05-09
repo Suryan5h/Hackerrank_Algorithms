@@ -7,7 +7,6 @@
 
 def aVeryBigSum(ar):
     # Write your code here
-    sumi=0
     from functools import reduce
     x:long = reduce(lambda x,y:x+y,ar)
     return x
